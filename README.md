@@ -7,3 +7,7 @@ After starting it up it will download an mp3 and ogg file and add them to a coll
 Just open the app in firefox and chrome and click on the two links. 
 In firefox both links work fine.
 In chrome the ogg link is not loaded and so the audio is not played.
+
+
+To run the app jus call:
+    meteor 

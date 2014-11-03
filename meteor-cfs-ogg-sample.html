@@ -1,0 +1,16 @@
+<head>
+  <title>meteor-cfs-ogg-sample</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> audios}}
+</body>
+
+<template name="audios">
+  <h3>Audios:</h3>
+  {{#each audios}}
+    <div><strong>{{_id}} </strong> <a href="{{url}}" target="_blank">{{url}}</a></div>
+  {{/each}}
+</template>
